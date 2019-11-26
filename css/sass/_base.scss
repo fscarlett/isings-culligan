@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // this defines what 1rem is (based on 16px)
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: Futura, Montserrat, Arial, sans-serif; 
+}
+
+body.page {
+  margin-bottom: 0; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:visited {
+    color: inherit;
+  }
+}
+
+li {
+  // list-style-type: none;
+}
+
+.button {
+  display: inline-block;
+  color: #fff !important;
+  background: $button;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  &:hover {
+    background: $button-hover;
+  }
+}
+
+.offset-heading {
+  position: relative;
+  @media(min-width: 1350px){
+    left: -50px; 
+  }
+}
+
+.ic-button {
+  display: block;
+  background-color: $highlight-color;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  padding: 10px 15px;
+  text-align: center;
+  margin: 20px auto;
+  width: 70%; 
+}
+
+.blue-button {
+  background-color: $aqua-text;
+}
