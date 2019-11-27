@@ -53,6 +53,10 @@
 		.site-branding {	
 			overflow: hidden;
 			height: 144px;
+			.custom-logo-link {
+		    position: relative;
+		    top: 24px;
+			}
 			img {
 				max-width: 300px;
 				min-width: 70px;

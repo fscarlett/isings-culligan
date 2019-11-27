@@ -29,12 +29,15 @@ footer.site-footer {
 	}
 	.socials {
 		a {
-			display: block;
+			padding: 6px 9px;
+			margin-right: 10px;
+	    background: $aqua-text;
+	    display: inline-block;
 		}
 		.fa {
-	    font-size: 50px;
-	    margin-right: 20px;
-	    margin-bottom: 20px;
+	    font-size: 45px;
+	    // margin-right: 20px;
+	    // margin-bottom: 20px;
 		}
 	}
 }

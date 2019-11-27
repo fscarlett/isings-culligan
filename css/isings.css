@@ -99,6 +99,9 @@ a {
   #masthead .nav-container .site-branding {
     overflow: hidden;
     height: 144px; }
+    #masthead .nav-container .site-branding .custom-logo-link {
+      position: relative;
+      top: 24px; }
     #masthead .nav-container .site-branding img {
       max-width: 300px;
       min-width: 70px; }
@@ -152,11 +155,12 @@ footer.site-footer {
       footer.site-footer #footer-menu li a {
         text-transform: uppercase; }
   footer.site-footer .socials a {
-    display: block; }
+    padding: 6px 9px;
+    margin-right: 10px;
+    background: #00A6B2;
+    display: inline-block; }
   footer.site-footer .socials .fa {
-    font-size: 50px;
-    margin-right: 20px;
-    margin-bottom: 20px; }
+    font-size: 45px; }
 
 .site-info {
   background: #fff;
@@ -209,11 +213,11 @@ body.home {
     height: 40vw;
     min-height: 150px; }
     body.home .hero-wrapper .hero-container {
-      padding: 60px 10px; }
+      padding: 170px 10px 60px; }
       body.home .hero-wrapper .hero-container h1 {
         color: #FFCF2E;
         font-size: 4rem;
-        font-weight: 500;
+        font-weight: 700;
         text-transform: uppercase;
         width: 500px;
         max-width: 90%; }
@@ -321,3 +325,84 @@ body.home {
       background-color: #00A6B2;
       padding: 30px 30px;
       color: #fff; }
+
+body.page #content {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+body.page .page-content-wrapper {
+  margin-bottom: 70px; }
+
+body.page h1.entry-title {
+  color: #00A6B2;
+  font-size: 2.5rem;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+body.page .home-water-solution-section {
+  min-height: 200px;
+  background-color: #ABD9D6;
+  padding: 0 0 40px;
+  position: relative; }
+  body.page .home-water-solution-section .solution-gradient {
+    background: linear-gradient(#fff, #ABD9D6);
+    height: 100px; }
+  body.page .home-water-solution-section img.water-graphic-home {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -165px;
+    left: 0; }
+    @media (max-width: 1500px) {
+      body.page .home-water-solution-section img.water-graphic-home {
+        top: -115px; } }
+    @media (max-width: 992px) {
+      body.page .home-water-solution-section img.water-graphic-home {
+        top: -65px; } }
+    @media (max-width: 767px) {
+      body.page .home-water-solution-section img.water-graphic-home {
+        top: -40px; } }
+    @media (max-width: 360px) {
+      body.page .home-water-solution-section img.water-graphic-home {
+        top: -30px; } }
+  body.page .home-water-solution-section h2 {
+    color: #003D4E;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0 60px;
+    text-transform: uppercase;
+    font-weight: bold; }
+    @media (min-width: 1350px) {
+      body.page .home-water-solution-section h2 {
+        text-align: left; } }
+  body.page .home-water-solution-section p {
+    color: #003D4E; }
+  body.page .home-water-solution-section .ic-button {
+    margin: 50px 0; }
+
+body.page .home-blog-section {
+  min-height: 300px;
+  padding: 40px 0; }
+  body.page .home-blog-section h2 {
+    font-size: 2.6rem;
+    color: #003D4E;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px; }
+  body.page .home-blog-section h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px; }
+  body.page .home-blog-section .ic-blog-card {
+    display: block; }
+  body.page .home-blog-section .ic-home-blog-img-wrapper {
+    height: 230px;
+    overflow: hidden; }
+    body.page .home-blog-section .ic-home-blog-img-wrapper img {
+      width: 100%; }
+  body.page .home-blog-section .ic-home-blog-copy-card {
+    background-color: #00A6B2;
+    padding: 30px 30px;
+    color: #fff; }

@@ -52,6 +52,7 @@
 					<div class="socials">
 						<a href="https://www.facebook.com/isingsculliganwaterofstockton/"><i class="fa fa-facebook-square"></i></a>
 						<a href="https://www.twitter.com/isingsculligan1"><i class="fa fa-twitter-square"></i></a>
+						<a href="https://www.instagram.com/isingsculligan"><i class="fab fa-instagram"></i></a>
 					</div>
 				</div>
 			</div>
