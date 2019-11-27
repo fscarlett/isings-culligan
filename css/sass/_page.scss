@@ -1,5 +1,5 @@
-body.page {
-
+body.page-template-default {
+	position: relative;
 	#content {
 		padding-top: 50px;
 		padding-bottom: 50px;		
@@ -7,6 +7,8 @@ body.page {
 
 	.page-content-wrapper {
 		margin-bottom: 70px;
+		position: relative;
+		z-index: 10;
 	}
 
 	h1.entry-title {
@@ -97,5 +99,12 @@ body.page {
 			color: #fff;
 		}
 	}
+}
 
+#menu-sidebar-menu {
+	margin-top: 30px;
+	li {
+		list-style-type: none;
+		margin-bottom: 15px;
+	}
 }

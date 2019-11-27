@@ -15,17 +15,17 @@
 get_header();
 ?>
 
-	<div class="container page-content-wrapper">
+	<div class="page-content-wrapper container">
 		<div class="row">
 			<aside class="col-sm-4">
-				
+
 				<?php get_sidebar(); ?>
 					
 			</aside>
 
-			<div id="primary" class="content-area">
+			<div id="primary" class="content-area col-sm-8">
 				
-				<main id="main" class="site-main col-sm-8">
+				<main id="main" class="site-main">
 
 				<?php
 				while ( have_posts() ) :
@@ -42,12 +42,15 @@ get_header();
 				?>
 
 				</main><!-- #main -->
-			</div><!-- #primary -->
+
+			</div><!-- #primary --> 
+
 		</div>
 
-		<?php get_template_part('template-parts/section-blog-with-solution'); ?>
-
 	</div>
+
+	<?php get_template_part('template-parts/section-blog-with-solution'); ?>
+
 
 <?php
 get_footer();

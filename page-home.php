@@ -23,7 +23,7 @@ get_header();
 		</div>
 
 		<section class="home-cta-section">
-			<div class="home-cta-container container">
+			<div class="home-cta-container container"> 
 				<div class="row">
 
 					<div class="col-md-4 home-cta-card">
