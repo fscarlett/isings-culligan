@@ -22,17 +22,6 @@ a {
   a:visited {
     color: inherit; }
 
-.button {
-  display: inline-block;
-  color: #fff !important;
-  background: #30B0D5;
-  padding: 10px;
-  border: 1px solid #eee;
-  border-radius: 5px;
-  margin-bottom: 15px; }
-  .button:hover {
-    background: #5BC0DE; }
-
 .offset-heading {
   position: relative; }
   @media (min-width: 1350px) {
@@ -52,6 +41,17 @@ a {
 
 .blue-button {
   background-color: #00A6B2; }
+
+input.gform_button {
+  background-color: #FFCF2E;
+  padding: 10px 20px 12px;
+  color: #003D4E;
+  text-transform: uppercase; }
+
+#gform_widget-2 {
+  padding: 0 10px;
+  border: 1px solid #003D4E;
+  border-radius: 4px; }
 
 #masthead .topbar {
   display: flex;
@@ -332,7 +332,7 @@ body.page-template-default {
     padding-top: 50px;
     padding-bottom: 50px; }
   body.page-template-default .page-content-wrapper {
-    margin-bottom: 70px;
+    margin-bottom: 130px;
     position: relative;
     z-index: 10; }
   body.page-template-default h1.entry-title {
@@ -341,13 +341,17 @@ body.page-template-default {
     margin: 0 0 20px;
     text-transform: uppercase;
     font-weight: bold; }
+  body.page-template-default h2, body.page-template-default h3 {
+    color: #00A6B2;
+    text-transform: uppercase;
+    font-weight: bold; }
   body.page-template-default .home-water-solution-section {
     min-height: 200px;
-    background-color: #ABD9D6;
+    background-color: #a0daf4;
     padding: 0 0 40px;
     position: relative; }
     body.page-template-default .home-water-solution-section .solution-gradient {
-      background: linear-gradient(#fff, #ABD9D6);
+      background: linear-gradient(#fff, #a0daf4);
       height: 100px; }
     body.page-template-default .home-water-solution-section img.water-graphic-home {
       width: 100%;
@@ -369,7 +373,7 @@ body.page-template-default {
           top: -30px; } }
     body.page-template-default .home-water-solution-section h2 {
       color: #003D4E;
-      text-align: center;
+      text-align: left;
       font-size: 2rem;
       margin: 20px 0 60px;
       text-transform: uppercase;
@@ -408,7 +412,10 @@ body.page-template-default {
       color: #fff; }
 
 #menu-sidebar-menu {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-left: 0; }
   #menu-sidebar-menu li {
     list-style-type: none;
     margin-bottom: 15px; }
+    #menu-sidebar-menu li a:hover {
+      color: #00A6B2; }

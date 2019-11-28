@@ -33,18 +33,18 @@ li {
   // list-style-type: none;
 }
 
-.button {
-  display: inline-block;
-  color: #fff !important;
-  background: $button;
-  padding: 10px;
-  border: 1px solid #eee;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  &:hover {
-    background: $button-hover;
-  }
-}
+// .button {
+//   display: inline-block;
+//   color: #fff !important;
+//   background: $button;
+//   padding: 10px;
+//   border: 1px solid #eee;
+//   border-radius: 5px;
+//   margin-bottom: 15px;
+//   &:hover {
+//     background: $button-hover;
+//   }
+// }
 
 .offset-heading {
   position: relative;
@@ -67,4 +67,17 @@ li {
 
 .blue-button {
   background-color: $aqua-text;
+}
+
+input.gform_button {
+  background-color: $highlight-color;
+  padding: 10px 20px 12px;
+  color: $text-color-dark;
+  text-transform: uppercase;
+}
+
+#gform_widget-2 {
+  padding: 0 10px;
+  border: 1px solid $text-color-dark;
+  border-radius: 4px;
 }

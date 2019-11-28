@@ -6,7 +6,7 @@ body.page-template-default {
 	}
 
 	.page-content-wrapper {
-		margin-bottom: 70px;
+		margin-bottom: 130px; 
 		position: relative;
 		z-index: 10;
 	}
@@ -19,15 +19,21 @@ body.page-template-default {
 		font-weight: bold;
 	}
 
+	h2, h3 {
+		color: $aqua-text;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
 
 	.home-water-solution-section {
 		min-height: 200px;
-		background-color: #ABD9D6;
+		background-color: #a0daf4;
 		padding: 0 0 40px;
 		position: relative;
 		.solution-gradient {
-			background: linear-gradient(#fff, #ABD9D6);
-			height: 100px;
+			background: linear-gradient(#fff, #a0daf4);
+			height: 100px; 
 		}
 		img.water-graphic-home {
 			width: 100%;
@@ -51,7 +57,7 @@ body.page-template-default {
 		}
 		h2 {
 				color: $text-color-dark;
-				text-align: center;
+				text-align: left;
 				font-size: 2rem;
 				margin: 20px 0 60px;
 				text-transform: uppercase;
@@ -103,8 +109,14 @@ body.page-template-default {
 
 #menu-sidebar-menu {
 	margin-top: 30px;
+	margin-left: 0;
 	li {
 		list-style-type: none;
 		margin-bottom: 15px;
+		a {
+			&:hover {
+				color: $aqua-text;
+			}
+		}
 	}
 }
