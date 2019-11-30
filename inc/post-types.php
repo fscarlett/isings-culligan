@@ -33,7 +33,7 @@ function ic_post_types() {
     'has_archive'         => true,
     'hierarchical'        => false,
     'menu_position'       => null,
-    'supports'            => array( 'title', 'thumbnail', 'excerpt', 'page-attributes' ),
+    'supports'            => array( 'title', 'thumbnail', 'editor', 'excerpt', 'page-attributes' ),
     'menu_icon'           => 'dashicons-lightbulb',
     );
 

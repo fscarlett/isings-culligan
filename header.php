@@ -35,7 +35,7 @@
 				?>
 			</nav>
 			<div class="top-contact">
-				<a href="tel:209-690-0007" class="top-phone">Contact Us: 209-690-0007</a> | <a href="mailto:info@isingsculliganwater.com" class="top-mail">Email</a>
+				<a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact Us </a> <a href="tel:209-690-0007" class="top-phone">209-690-0007</a> | <a href="mailto:info@isingsculliganwater.com" class="top-mail">Email</a>
 			</div>
 			
 		</div>

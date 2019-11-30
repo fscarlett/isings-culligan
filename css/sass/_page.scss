@@ -1,5 +1,6 @@
-body.page-template-default {
-	position: relative;
+body.page-template-default,
+body.page-template-page-no-sidebar {
+	position: relative; 
 	#content {
 		padding-top: 50px;
 		padding-bottom: 50px;		
