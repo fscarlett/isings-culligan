@@ -26,7 +26,7 @@ function ic_post_types() {
     'publicly_queryable'  => true,
     'show_ui'             => true,
     'query_var'           => true,
-    'rewrite'             => array( 'slug' => 'product' ),
+    'rewrite'             => array( 'slug' => 'products' ),
     'capability_type'     => 'page',
     'map_meta_cap'        => true,
     'exclude_from_search' => false,
