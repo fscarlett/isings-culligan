@@ -40,41 +40,41 @@ function ic_post_types() {
   register_post_type( 'ic_product', $product_args );
 
 
-//register Event post type
-  $event_labels = array(
-    'name'                => 'Events',
-    'singular_name'       => 'Event',
-    'menu_name'           => 'Events',
-    'name_admin_bar'      => 'Events',
+//register Problem post type
+  $problem_labels = array(
+    'name'                => 'Problems',
+    'singular_name'       => 'Problem',
+    'menu_name'           => 'Problems',
+    'name_admin_bar'      => 'Problem',
     'add_new'             => 'Add New',
-    'add_new_item'        => 'Add New Event',
-    'new_item'            => 'New Event',
-    'edit_item'           => 'Edit Event',
-    'view_item'           => 'View Event',
-    'all_items'           => 'All Events',
-    'search_items'        => 'Search For Events',
-    'parent_item_colon'   => 'Parent Events:',
-    'not_found'           => 'No Event found.',
-    'not_found_in_trash'  => 'No Event found in trash.',
+    'add_new_item'        => 'Add New Problem',
+    'new_item'            => 'New Problem',
+    'edit_item'           => 'Edit Problem',
+    'view_item'           => 'View Problem',
+    'all_items'           => 'All Problems',
+    'search_items'        => 'Search For Problems',
+    'parent_item_colon'   => 'Parent Problems:',
+    'not_found'           => 'No Problem found.',
+    'not_found_in_trash'  => 'No Problem found in trash.',
     );
-  $event_args = array(
-    'labels'              => $event_labels,
-    'description'         => 'Events',
+  $problem_args = array(
+    'labels'              => $problem_labels,
+    'description'         => 'Problems',
     'public'              => true,
     'publicly_queryable'  => true,
     'show_ui'             => true,
     'query_var'           => true,
-    'rewrite'             => array( 'slug' => 'event' ),
+    'rewrite'             => array( 'slug' => 'problems' ),
     'capability_type'     => 'page',
     'exclude_from_search' => false,
     'has_archive'         => true,
     'hierarchical'        => true,
     'menu_position'       => null,
     'supports'            => array( 'title', 'editor', 'thumbnail', 'excerpt', 'page-attributes' ),
-    'menu_icon'           => 'dashicons-calendar',
+    'menu_icon'           => 'dashicons-warning',
     );
 
-  // register_post_type( 'aanv_event', $event_args );
+  register_post_type( 'ic_problem', $problem_args );
 
 }
 
