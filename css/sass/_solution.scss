@@ -1,0 +1,59 @@
+body.page-template-page-solution-center {
+
+	.solution-form-wrapper { 
+		padding: 15px;
+		border: 1px solid $text-color-dark;
+		border-radius: 6px;
+		margin-top: 40px;
+		form {
+			width: 100%;
+			padding: 10px;
+		}
+		
+
+
+		.solution-button {
+			padding: 15px;
+			background-color: #4ca948;
+			border: 1px #bbb solid;
+			border-radius: 6px;
+			width: 100%;
+		}
+
+	}
+
+
+
+	.input-wrapper {
+			padding: 10px 15px;
+			background-color: $topbar-bg;
+			border: 1px #bbb solid;
+			border-radius: 6px;
+			width: 100%;
+			margin-bottom: 10px;
+			text-align: center;
+			label {
+				width: 94%; 
+				cursor: pointer;
+			}
+		}
+
+	.input-heading {
+		background-color: $header-bg;
+		color: #fff;
+		margin-top: 30px;
+	}
+}
+
+
+
+body.page-template-page-solution-recommendation {
+	.recommend-wrapper {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		padding: 15px;
+		background-color: #def;
+		border: 1px solid $text-color-dark;
+		border-radius: 6px;
+	}
+} 
