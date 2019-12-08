@@ -9,13 +9,8 @@ get_header();
 
 		<div class="page-content-wrapper container">
 		<div class="row">
-			<aside class="col-sm-4">
 
-				<?php get_sidebar(); ?>
-					
-			</aside>
-
-			<div id="primary" class="content-area col-sm-8">
+			<div id="primary" class="content-area col-sm-12">
 				
 				<main id="main" class="site-main">
 
@@ -26,21 +21,13 @@ get_header();
 
 					<h1><?php the_title(); ?></h1>
 
-					<div class="row">
+					<div class="content-wrapper">
 
-						<div class="content-wrapper col-sm-9">
-							
-							<?php the_content(); ?>
-
-						</div>
-
-						<div class="col-sm-3">
-							<?php echo get_the_post_thumbnail(); ?>
-						</div>
+						<?php the_content(); ?>
 
 					</div>
 
-					<div class="info-wrapper">
+					<!-- <div class="info-wrapper">
 						
 
 						<div class="overview"><?php the_field('overview'); ?></div>
@@ -48,7 +35,7 @@ get_header();
 						<div class="overview"><?php the_field('faq'); ?></div>
 
 						
-					</div>
+					</div> -->
 
 
 				<?php

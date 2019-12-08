@@ -76,6 +76,47 @@ function ic_post_types() {
 
   register_post_type( 'ic_problem', $problem_args );
 
+
+
+
+
+  //register Job Opening post type
+  $opening_labels = array(
+    'name'                => 'Job Openings',
+    'singular_name'       => 'Job Opening',
+    'menu_name'           => 'Job Openings',
+    'name_admin_bar'      => 'Job Opening',
+    'add_new'             => 'Add New',
+    'add_new_item'        => 'Add New Job Opening',
+    'new_item'            => 'New Job Opening',
+    'edit_item'           => 'Edit Job Opening',
+    'view_item'           => 'View Job Opening',
+    'all_items'           => 'All Job Openings',
+    'search_items'        => 'Search For Job Openings',
+    'parent_item_colon'   => 'Parent Job Openings:',
+    'not_found'           => 'No Job Opening found.',
+    'not_found_in_trash'  => 'No Job Opening found in trash.',
+    );
+  $opening_args = array(
+    'labels'              => $opening_labels,
+    'description'         => 'Job Openings',
+    'public'              => true,
+    'publicly_queryable'  => true,
+    'show_ui'             => true,
+    'query_var'           => true,
+    'rewrite'             => array( 'slug' => 'job-openings' ),
+    'capability_type'     => 'page',
+    'map_meta_cap'        => true,
+    'exclude_from_search' => false,
+    'has_archive'         => true,
+    'hierarchical'        => false,
+    'menu_position'       => null,
+    'supports'            => array( 'title', 'thumbnail', 'editor', 'excerpt', 'page-attributes' ),
+    'menu_icon'           => 'dashicons-universal-access',
+    );
+
+  register_post_type( 'ic_opening', $opening_args );
+
 }
 
 add_action( 'init', 'ic_post_types', 10 );

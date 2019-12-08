@@ -124,9 +124,12 @@ input.gform_button {
           width: 100%;
           margin-bottom: 10px;
           margin-left: 15px; }
+          #masthead .nav-container .main-navigation ul .sub-menu li a:hover {
+            color: #fff; }
     #masthead .nav-container .main-navigation li a {
       margin-left: 30px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #fff; }
 
 #masthead .topbar nav.main-navigation {
   width: auto; }
@@ -532,6 +535,11 @@ body.single-ic_problem {
     margin: 0 0 20px;
     text-transform: uppercase;
     font-weight: bold; }
+  body.single-ic_problem .site-main .content-wrapper .feat-image-wrapper img {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 15px; }
 
 body.page-template-page-solution-center .solution-form-wrapper {
   padding: 15px;
@@ -572,3 +580,49 @@ body.page-template-page-solution-recommendation .recommend-wrapper {
   background-color: #def;
   border: 1px solid #003D4E;
   border-radius: 6px; }
+
+body.single-ic_opening {
+  position: relative; }
+  body.single-ic_opening #content {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  body.single-ic_opening .site-main h1 {
+    color: #00A6B2;
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  body.single-ic_opening .site-main .info-wrapper {
+    border: 2px solid #add;
+    padding: 20px 15px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: linear-gradient(to left, #fff, #a0daf4); }
+    body.single-ic_opening .site-main .info-wrapper h2 {
+      margin-bottom: 30px; }
+
+body.page-template-page-employment {
+  position: relative; }
+  body.page-template-page-employment #content {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  body.page-template-page-employment .site-main h1 {
+    color: #00A6B2;
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  body.page-template-page-employment .site-main h2.job-name {
+    color: #00A6B2;
+    font-size: 2rem;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  body.page-template-page-employment .jobs-wrapper {
+    margin-top: 60px; }
+  body.page-template-page-employment .job-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+    border-radius: 6px; }

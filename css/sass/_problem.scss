@@ -13,6 +13,17 @@ body.single-ic_problem {
 			text-transform: uppercase;
 			font-weight: bold; 
 		}
+
+		.content-wrapper {
+			.feat-image-wrapper {
+				img {
+					float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+				}
+			}
+		}
  
 	// 	.info-wrapper {
 	// 		border: 2px solid #add;

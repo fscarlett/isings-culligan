@@ -27,6 +27,12 @@ get_header();
 					<h1><?php the_title(); ?></h1>
 
 					<div class="content-wrapper">
+
+						<div class="feat-image-wrapper">
+							
+							<?php echo get_the_post_thumbnail(); ?>
+								
+						</div>
 						
 						<?php the_content(); ?>
 
