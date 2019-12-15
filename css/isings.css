@@ -50,16 +50,39 @@ a {
 .blue-button {
   background-color: #00A6B2; }
 
+.gform_footer {
+  text-align: center; }
+
 input.gform_button {
   background-color: #FFCF2E;
   padding: 10px 20px 12px;
   color: #003D4E;
   text-transform: uppercase; }
+  input.gform_button:hover {
+    text-decoration: underline;
+    background-color: #fe1; }
+
+#media_image-2 {
+  padding: 10px 10px 0;
+  margin-bottom: 0;
+  border: 1px solid #003D4E;
+  border-radius: 4px;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; }
+  #media_image-2 img {
+    padding: 0 0 10px;
+    width: 100%; }
 
 #gform_widget-2 {
   padding: 0 10px;
   border: 1px solid #003D4E;
-  border-radius: 4px; }
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none; }
+  #gform_widget-2 h2 {
+    text-align: center; }
 
 #masthead .topbar {
   display: flex;
