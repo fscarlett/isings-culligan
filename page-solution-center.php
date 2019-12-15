@@ -153,8 +153,8 @@ get_header();
 						// 	formInput.classList.add('ic-selected');							
 						// }
 
+
 						jQuery(".inputprob").on("click", function(){
-						  
 						  jQuery(this).toggleClass("ic-selected", true);
 						});
 
