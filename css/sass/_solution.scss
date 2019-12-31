@@ -55,10 +55,17 @@ body.page-template-page-solution-center {
 			.ic-selected {
 				background-color: #add;
 				&:hover {
-					background-color: #add!important;
+					background-color: #add!important; 
 				}
 			}
 		}
+
+	input[type=checkbox]:checked + label {
+		background-color: #add;
+		&:hover {
+					background-color: #add!important; 
+				}
+	} 
 
 	.input-heading {
 		padding: 10px 15px;

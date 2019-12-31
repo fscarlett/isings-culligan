@@ -607,6 +607,11 @@ body.page-template-page-solution-center .input-wrapper {
     body.page-template-page-solution-center .input-wrapper .ic-selected:hover {
       background-color: #add !important; }
 
+body.page-template-page-solution-center input[type=checkbox]:checked + label {
+  background-color: #add; }
+  body.page-template-page-solution-center input[type=checkbox]:checked + label:hover {
+    background-color: #add !important; }
+
 body.page-template-page-solution-center .input-heading {
   padding: 10px 15px;
   border: 1px #bbb solid;
