@@ -10,13 +10,13 @@ get_header();
 
 	<div class="page-content-wrapper container">
 		<div class="row">
-			<aside class="col-sm-4">
+			<aside class="col-lg-4 ic-sidebar-desk">
 
 				<?php get_sidebar(); ?>
 					
 			</aside>
 
-			<div id="primary" class="content-area col-sm-8">
+			<div id="primary" class="content-area col-lg-8">
 				
 				<main id="main" class="site-main">
 

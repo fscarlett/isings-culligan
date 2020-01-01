@@ -30,6 +30,10 @@ a {
   .container {
     max-width: 1250px; } }
 
+@media (max-width: 1200px) {
+  aside.ic-sidebar-desk {
+    display: none; } }
+
 .offset-heading {
   position: relative; }
   @media (min-width: 1350px) {

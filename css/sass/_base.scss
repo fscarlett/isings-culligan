@@ -45,6 +45,12 @@ li {
   }
 }
 
+@media (max-width: 1200px){
+  aside.ic-sidebar-desk {
+    display: none;
+  }
+}
+
 // .button {
 //   display: inline-block;
 //   color: #fff !important;
