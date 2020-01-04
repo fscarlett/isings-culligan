@@ -9,7 +9,7 @@ get_header();
 
 		<div class="page-content-wrapper container">
 		<div class="row">
-			<aside class="col-lg-4 ic-sidebar-desk">
+			<aside class="col-xl-4 order-xl-1 order-12">
 
 				<?php get_sidebar(); ?>
 					

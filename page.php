@@ -17,13 +17,13 @@ get_header();
 
 	<div class="page-content-wrapper container">
 		<div class="row">
-			<aside class="col-lg-4 ic-sidebar-desk">
+			<aside class="col-xl-4 order-xl-1 order-12">
 
 				<?php get_sidebar(); ?>
 					
 			</aside>
 
-			<div id="primary" class="content-area col-lg-8">
+			<div id="primary" class="content-area col-xl-8 order-xl-2 order-1">
 				
 				<main id="main" class="site-main">
 

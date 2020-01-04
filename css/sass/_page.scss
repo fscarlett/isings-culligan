@@ -1,7 +1,8 @@
 body.page-template-default,
 body.page-template-page-no-sidebar,
 body.page-template-page-solution-center,
-body.page-template-page-solution-recommendation {
+body.page-template-page-solution-recommendation,
+body.error404 {
 	position: relative; 
 	#content {
 		padding-top: 50px;
@@ -106,7 +107,11 @@ body.page-template-page-solution-recommendation {
 			background-color: $aqua-text;
 			padding: 30px 30px;
 			color: #fff;
+			a h3 {
+				color: #fff;
+			}
 		}
+
 	}
 }
 
