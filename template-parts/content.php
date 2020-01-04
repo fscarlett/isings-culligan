@@ -22,8 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				isings_posted_on();
-				isings_posted_by();
+				// isings_posted_on();
+				// isings_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -54,6 +54,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php isings_entry_footer(); ?>
+		<?php // isings_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
