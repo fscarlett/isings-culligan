@@ -5,8 +5,10 @@ body.home {
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		height: 40vw;
 		min-height: 150px; 
+		@media(min-width: 900px){
+			height: 40vw;			
+		}
 		.hero-container {
 			padding: 170px 10px 60px;
 			h1 {

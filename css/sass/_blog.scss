@@ -113,11 +113,18 @@ position: relative;
 	}
 }
 
+/* Blog Page ============================================= */
 body.page-template-page-blog {
 	position: relative; 
 	#content {
 		padding-top: 50px;
 		padding-bottom: 0;		
+	}
+
+	@media (min-width: 1400px) {
+	  .container {
+	      max-width: 1400px;
+	  }
 	}
 
 	.page-content-wrapper {

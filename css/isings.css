@@ -153,10 +153,15 @@ input.gform_button {
       position: relative;
       top: 24px; }
     #masthead .nav-container .site-branding img {
-      max-width: 300px;
-      min-width: 70px; }
+      max-width: 300px; }
+      @media (max-width: 1300px) {
+        #masthead .nav-container .site-branding img {
+          width: 80%;
+          padding: 10px; } }
   #masthead .nav-container .main-navigation {
     width: auto; }
+    #masthead .nav-container .main-navigation .menu-toggle {
+      text-transform: uppercase; }
     #masthead .nav-container .main-navigation ul .sub-menu {
       background-color: #006699;
       padding: 15px 0 15px 10px; }
@@ -172,6 +177,17 @@ input.gform_button {
       margin-left: 30px;
       text-transform: uppercase;
       color: #fff; }
+      @media (max-width: 1300px) {
+        #masthead .nav-container .main-navigation li a {
+          margin-bottom: 15px; } }
+  #masthead .nav-container #site-navigation.toggled {
+    background: #006699;
+    position: absolute;
+    left: 0;
+    top: 70px; }
+    #masthead .nav-container #site-navigation.toggled li {
+      margin-top: 10px;
+      margin-bottom: 10px; }
 
 #masthead .topbar nav.main-navigation {
   width: auto; }
@@ -263,8 +279,10 @@ body.home {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 40vw;
     min-height: 150px; }
+    @media (min-width: 900px) {
+      body.home .hero-wrapper {
+        height: 40vw; } }
     body.home .hero-wrapper .hero-container {
       padding: 170px 10px 60px; }
       body.home .hero-wrapper .hero-container h1 {
@@ -689,11 +707,15 @@ body.page-template-page-blog {
       body.page-template-page-blog .home-blog-section .ic-home-blog-copy-card a h3 {
         color: #fff; }
 
+/* Blog Page ============================================= */
 body.page-template-page-blog {
   position: relative; }
   body.page-template-page-blog #content {
     padding-top: 50px;
     padding-bottom: 0; }
+  @media (min-width: 1400px) {
+    body.page-template-page-blog .container {
+      max-width: 1400px; } }
   body.page-template-page-blog .page-content-wrapper {
     margin-bottom: 130px;
     position: relative;
