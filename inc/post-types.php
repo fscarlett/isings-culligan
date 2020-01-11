@@ -32,6 +32,7 @@ function ic_post_types() {
     'exclude_from_search' => false,
     'has_archive'         => true,
     'hierarchical'        => false,
+    'taxonomies'          => array( 'category' ),
     'menu_position'       => null,
     'supports'            => array( 'title', 'thumbnail', 'editor', 'excerpt', 'page-attributes' ),
     'menu_icon'           => 'dashicons-lightbulb',

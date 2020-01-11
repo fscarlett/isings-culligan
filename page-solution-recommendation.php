@@ -106,6 +106,10 @@ get_header();
 
 				<div class="recommend-wrapper">
 					<h2>Water Softener</h2>
+
+					<?php get_template_part('template-parts/solution-softener'); ?>
+
+
 				</div>
 
 			<?php	} elseif ($solution === 'RO') {	?>
@@ -115,7 +119,7 @@ get_header();
 				</div>
 
 			<?php	} elseif ($solution === 'WHF') {	?>
-
+ 
 				<div class="recommend-wrapper">
 					<h2>Whole House Water Filter</h2>
 				</div>
