@@ -798,6 +798,9 @@ body.single-ic_problem {
     margin-right: 20px;
     margin-bottom: 15px; }
 
+body.page-template-page-solution-center #content .page-content-wrapper {
+  margin-bottom: 30px; }
+
 body.page-template-page-solution-center .solution-form-wrapper {
   padding: 15px;
   border: 1px solid #003D4E;
@@ -866,6 +869,9 @@ body.page-template-page-solution-center .ic-home-blog-copy-card {
   body.page-template-page-solution-center .ic-home-blog-copy-card a h3 {
     color: #fff; }
 
+body.page-template-page-solution-recommendation #content .page-content-wrapper {
+  margin-bottom: 30px; }
+
 body.page-template-page-solution-recommendation .recommend-wrapper {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -873,6 +879,18 @@ body.page-template-page-solution-recommendation .recommend-wrapper {
   background-color: #def;
   border: 1px solid #003D4E;
   border-radius: 6px; }
+
+body.page-template-page-solution-recommendation .more-info {
+  display: inline-block;
+  padding: 12px 32px;
+  margin: 20px 0 10px;
+  background-color: #003D4E;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  text-transform: uppercase; }
+  body.page-template-page-solution-recommendation .more-info:hover {
+    background-color: #30B0D5; }
 
 body.single-ic_opening {
   position: relative; }
@@ -894,6 +912,13 @@ body.single-ic_opening {
     background: linear-gradient(to left, #fff, #a0daf4); }
     body.single-ic_opening .site-main .info-wrapper h2 {
       margin-bottom: 30px; }
+  body.single-ic_opening .site-main .apply-link {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #FFCF2E;
+    border: 1px solid #8e8f93;
+    border-radius: 6px;
+    text-transform: uppercase; }
 
 body.page-template-page-employment {
   position: relative; }

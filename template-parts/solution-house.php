@@ -2,7 +2,7 @@
 $args = array(  
         'post_type' => 'ic_product',
         'posts_per_page' => -1, 
-        'category_name' => 'softener',
+        'category_name' => 'wholehouse',
     );
 
     $loop = new WP_Query( $args ); 

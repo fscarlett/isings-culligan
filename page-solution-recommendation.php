@@ -105,23 +105,35 @@ get_header();
 			if ($solution === 'WS') {	?>
 
 				<div class="recommend-wrapper">
-					<h2>Water Softener</h2>
+					<!-- <h2>Water Softener</h2> -->
 
 					<?php get_template_part('template-parts/solution-softener'); ?>
 
+					<a href="/products/water-softener/" class="more-info">More Information</a>
 
 				</div>
 
 			<?php	} elseif ($solution === 'RO') {	?>
 
 				<div class="recommend-wrapper">
-					<h2>Reverse Osmosis Water Filter</h2>
+					<!-- <h2>Reverse Osmosis Water Filter</h2> -->
+
+					<?php get_template_part('template-parts/solution-reverse'); ?>
+
+					<a href="/products/reverse-osmosis/" class="more-info">More Information</a>
+
+
 				</div>
 
 			<?php	} elseif ($solution === 'WHF') {	?>
  
 				<div class="recommend-wrapper">
-					<h2>Whole House Water Filter</h2>
+					<!-- <h2>Whole House Water Filter</h2> -->
+
+					<?php get_template_part('template-parts/solution-house'); ?> 
+
+					<a href="/products/whole-house-water-filter/" class="more-info">More Information</a>
+
 				</div>
 
 			<?php	} ?>

@@ -1,5 +1,9 @@
 body.page-template-page-solution-center {
 
+	#content .page-content-wrapper {
+		margin-bottom: 30px;
+	}
+
 	.solution-form-wrapper { 
 		padding: 15px;
 		border: 1px solid $text-color-dark;
@@ -94,6 +98,11 @@ body.page-template-page-solution-center {
 
 
 body.page-template-page-solution-recommendation {
+
+	#content .page-content-wrapper {
+		margin-bottom: 30px;
+	}
+
 	.recommend-wrapper {
 		margin-top: 25px;
 		margin-bottom: 25px;
@@ -101,5 +110,19 @@ body.page-template-page-solution-recommendation {
 		background-color: #def;
 		border: 1px solid $text-color-dark;
 		border-radius: 6px;
+	}
+
+	.more-info {
+		display: inline-block;
+		padding: 12px 32px;
+		margin: 20px 0 10px;
+		background-color: $footer-bg;
+		color: #fff;
+		border: 2px solid #fff;
+		border-radius: 6px;
+		text-transform: uppercase;
+		&:hover {
+			background-color: $button;
+		}
 	}
 } 

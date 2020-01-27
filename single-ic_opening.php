@@ -25,6 +25,10 @@ get_header();
 
 						<?php the_content(); ?>
 
+						<div class="apply-wrapper">
+							<a href="/apply?job=<?php the_title(); ?>" class="apply-link">Apply For This Job</a> 
+						</div>
+
 					</div>
 
 					<!-- <div class="info-wrapper">
