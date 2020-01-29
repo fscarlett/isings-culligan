@@ -37,6 +37,12 @@ li {
   margin-bottom: 20px;
 }
 
+/* =============  Bootstrap Overrides ================= */
+
+.btn {
+  font-size: 1.6rem;
+}
+
 @media (min-width: 1200px) {
   .container {
       max-width: 1200px;
@@ -52,25 +58,14 @@ li {
   }
 }
 
+/* ==================================================== */
+
 @media (max-width: 1200px){
   aside #nav_menu-2 {
     display: none; 
   }
 
 }
-
-// .button {
-//   display: inline-block;
-//   color: #fff !important;
-//   background: $button;
-//   padding: 10px;
-//   border: 1px solid #eee;
-//   border-radius: 5px;
-//   margin-bottom: 15px;
-//   &:hover {
-//     background: $button-hover;
-//   }
-// }
 
 .offset-heading {
   position: relative;

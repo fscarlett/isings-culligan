@@ -25,6 +25,10 @@ a {
 #primary {
   margin-bottom: 20px; }
 
+/* =============  Bootstrap Overrides ================= */
+.btn {
+  font-size: 1.6rem; }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px; }
@@ -35,6 +39,7 @@ a {
   .container {
     max-width: 1250px; } }
 
+/* ==================================================== */
 @media (max-width: 1200px) {
   aside #nav_menu-2 {
     display: none; } }
@@ -403,12 +408,14 @@ body.page-template-default,
 body.page-template-page-no-sidebar,
 body.page-template-page-solution-center,
 body.page-template-page-solution-recommendation,
+body.single-ic_product,
 body.error404 {
   position: relative; }
   body.page-template-default #content,
   body.page-template-page-no-sidebar #content,
   body.page-template-page-solution-center #content,
   body.page-template-page-solution-recommendation #content,
+  body.single-ic_product #content,
   body.error404 #content {
     padding-top: 50px;
     padding-bottom: 50px; }
@@ -416,6 +423,7 @@ body.error404 {
   body.page-template-page-no-sidebar .page-content-wrapper,
   body.page-template-page-solution-center .page-content-wrapper,
   body.page-template-page-solution-recommendation .page-content-wrapper,
+  body.single-ic_product .page-content-wrapper,
   body.error404 .page-content-wrapper {
     margin-bottom: 130px;
     position: relative;
@@ -424,6 +432,7 @@ body.error404 {
   body.page-template-page-no-sidebar h1.entry-title,
   body.page-template-page-solution-center h1.entry-title,
   body.page-template-page-solution-recommendation h1.entry-title,
+  body.single-ic_product h1.entry-title,
   body.error404 h1.entry-title {
     color: #00A6B2;
     font-size: 2.5rem;
@@ -437,6 +446,8 @@ body.error404 {
   body.page-template-page-solution-center h3,
   body.page-template-page-solution-recommendation h2,
   body.page-template-page-solution-recommendation h3,
+  body.single-ic_product h2,
+  body.single-ic_product h3,
   body.error404 h2,
   body.error404 h3 {
     color: #00A6B2;
@@ -446,6 +457,7 @@ body.error404 {
   body.page-template-page-no-sidebar .home-water-solution-section,
   body.page-template-page-solution-center .home-water-solution-section,
   body.page-template-page-solution-recommendation .home-water-solution-section,
+  body.single-ic_product .home-water-solution-section,
   body.error404 .home-water-solution-section {
     min-height: 200px;
     background-color: #a0daf4;
@@ -455,6 +467,7 @@ body.error404 {
     body.page-template-page-no-sidebar .home-water-solution-section .solution-gradient,
     body.page-template-page-solution-center .home-water-solution-section .solution-gradient,
     body.page-template-page-solution-recommendation .home-water-solution-section .solution-gradient,
+    body.single-ic_product .home-water-solution-section .solution-gradient,
     body.error404 .home-water-solution-section .solution-gradient {
       background: linear-gradient(#fff, #a0daf4);
       height: 100px; }
@@ -462,6 +475,7 @@ body.error404 {
     body.page-template-page-no-sidebar .home-water-solution-section img.water-graphic-home,
     body.page-template-page-solution-center .home-water-solution-section img.water-graphic-home,
     body.page-template-page-solution-recommendation .home-water-solution-section img.water-graphic-home,
+    body.single-ic_product .home-water-solution-section img.water-graphic-home,
     body.error404 .home-water-solution-section img.water-graphic-home {
       width: 100%;
       height: auto;
@@ -473,6 +487,7 @@ body.error404 {
         body.page-template-page-no-sidebar .home-water-solution-section img.water-graphic-home,
         body.page-template-page-solution-center .home-water-solution-section img.water-graphic-home,
         body.page-template-page-solution-recommendation .home-water-solution-section img.water-graphic-home,
+        body.single-ic_product .home-water-solution-section img.water-graphic-home,
         body.error404 .home-water-solution-section img.water-graphic-home {
           top: -115px; } }
       @media (max-width: 992px) {
@@ -480,6 +495,7 @@ body.error404 {
         body.page-template-page-no-sidebar .home-water-solution-section img.water-graphic-home,
         body.page-template-page-solution-center .home-water-solution-section img.water-graphic-home,
         body.page-template-page-solution-recommendation .home-water-solution-section img.water-graphic-home,
+        body.single-ic_product .home-water-solution-section img.water-graphic-home,
         body.error404 .home-water-solution-section img.water-graphic-home {
           top: -65px; } }
       @media (max-width: 767px) {
@@ -487,6 +503,7 @@ body.error404 {
         body.page-template-page-no-sidebar .home-water-solution-section img.water-graphic-home,
         body.page-template-page-solution-center .home-water-solution-section img.water-graphic-home,
         body.page-template-page-solution-recommendation .home-water-solution-section img.water-graphic-home,
+        body.single-ic_product .home-water-solution-section img.water-graphic-home,
         body.error404 .home-water-solution-section img.water-graphic-home {
           top: -40px; } }
       @media (max-width: 360px) {
@@ -494,12 +511,14 @@ body.error404 {
         body.page-template-page-no-sidebar .home-water-solution-section img.water-graphic-home,
         body.page-template-page-solution-center .home-water-solution-section img.water-graphic-home,
         body.page-template-page-solution-recommendation .home-water-solution-section img.water-graphic-home,
+        body.single-ic_product .home-water-solution-section img.water-graphic-home,
         body.error404 .home-water-solution-section img.water-graphic-home {
           top: -30px; } }
     body.page-template-default .home-water-solution-section h2,
     body.page-template-page-no-sidebar .home-water-solution-section h2,
     body.page-template-page-solution-center .home-water-solution-section h2,
     body.page-template-page-solution-recommendation .home-water-solution-section h2,
+    body.single-ic_product .home-water-solution-section h2,
     body.error404 .home-water-solution-section h2 {
       color: #003D4E;
       text-align: left;
@@ -512,24 +531,28 @@ body.error404 {
         body.page-template-page-no-sidebar .home-water-solution-section h2,
         body.page-template-page-solution-center .home-water-solution-section h2,
         body.page-template-page-solution-recommendation .home-water-solution-section h2,
+        body.single-ic_product .home-water-solution-section h2,
         body.error404 .home-water-solution-section h2 {
           text-align: left; } }
     body.page-template-default .home-water-solution-section p,
     body.page-template-page-no-sidebar .home-water-solution-section p,
     body.page-template-page-solution-center .home-water-solution-section p,
     body.page-template-page-solution-recommendation .home-water-solution-section p,
+    body.single-ic_product .home-water-solution-section p,
     body.error404 .home-water-solution-section p {
       color: #003D4E; }
     body.page-template-default .home-water-solution-section .ic-button,
     body.page-template-page-no-sidebar .home-water-solution-section .ic-button,
     body.page-template-page-solution-center .home-water-solution-section .ic-button,
     body.page-template-page-solution-recommendation .home-water-solution-section .ic-button,
+    body.single-ic_product .home-water-solution-section .ic-button,
     body.error404 .home-water-solution-section .ic-button {
       margin: 50px 0; }
   body.page-template-default .home-blog-section,
   body.page-template-page-no-sidebar .home-blog-section,
   body.page-template-page-solution-center .home-blog-section,
   body.page-template-page-solution-recommendation .home-blog-section,
+  body.single-ic_product .home-blog-section,
   body.error404 .home-blog-section {
     min-height: 300px;
     padding: 40px 0; }
@@ -537,6 +560,7 @@ body.error404 {
     body.page-template-page-no-sidebar .home-blog-section h2,
     body.page-template-page-solution-center .home-blog-section h2,
     body.page-template-page-solution-recommendation .home-blog-section h2,
+    body.single-ic_product .home-blog-section h2,
     body.error404 .home-blog-section h2 {
       font-size: 2.6rem;
       color: #003D4E;
@@ -547,6 +571,7 @@ body.error404 {
     body.page-template-page-no-sidebar .home-blog-section h3,
     body.page-template-page-solution-center .home-blog-section h3,
     body.page-template-page-solution-recommendation .home-blog-section h3,
+    body.single-ic_product .home-blog-section h3,
     body.error404 .home-blog-section h3 {
       font-weight: bold;
       text-transform: uppercase;
@@ -556,12 +581,14 @@ body.error404 {
     body.page-template-page-no-sidebar .home-blog-section .ic-blog-card,
     body.page-template-page-solution-center .home-blog-section .ic-blog-card,
     body.page-template-page-solution-recommendation .home-blog-section .ic-blog-card,
+    body.single-ic_product .home-blog-section .ic-blog-card,
     body.error404 .home-blog-section .ic-blog-card {
       display: block; }
     body.page-template-default .home-blog-section .ic-home-blog-img-wrapper,
     body.page-template-page-no-sidebar .home-blog-section .ic-home-blog-img-wrapper,
     body.page-template-page-solution-center .home-blog-section .ic-home-blog-img-wrapper,
     body.page-template-page-solution-recommendation .home-blog-section .ic-home-blog-img-wrapper,
+    body.single-ic_product .home-blog-section .ic-home-blog-img-wrapper,
     body.error404 .home-blog-section .ic-home-blog-img-wrapper {
       height: 230px;
       overflow: hidden; }
@@ -569,12 +596,14 @@ body.error404 {
       body.page-template-page-no-sidebar .home-blog-section .ic-home-blog-img-wrapper img,
       body.page-template-page-solution-center .home-blog-section .ic-home-blog-img-wrapper img,
       body.page-template-page-solution-recommendation .home-blog-section .ic-home-blog-img-wrapper img,
+      body.single-ic_product .home-blog-section .ic-home-blog-img-wrapper img,
       body.error404 .home-blog-section .ic-home-blog-img-wrapper img {
         width: 100%; }
     body.page-template-default .home-blog-section .ic-home-blog-copy-card,
     body.page-template-page-no-sidebar .home-blog-section .ic-home-blog-copy-card,
     body.page-template-page-solution-center .home-blog-section .ic-home-blog-copy-card,
     body.page-template-page-solution-recommendation .home-blog-section .ic-home-blog-copy-card,
+    body.single-ic_product .home-blog-section .ic-home-blog-copy-card,
     body.error404 .home-blog-section .ic-home-blog-copy-card {
       background-color: #00A6B2;
       padding: 30px 30px;
@@ -583,6 +612,7 @@ body.error404 {
       body.page-template-page-no-sidebar .home-blog-section .ic-home-blog-copy-card a h3,
       body.page-template-page-solution-center .home-blog-section .ic-home-blog-copy-card a h3,
       body.page-template-page-solution-recommendation .home-blog-section .ic-home-blog-copy-card a h3,
+      body.single-ic_product .home-blog-section .ic-home-blog-copy-card a h3,
       body.error404 .home-blog-section .ic-home-blog-copy-card a h3 {
         color: #fff; }
 
@@ -772,14 +802,21 @@ body.single-ic_product {
     text-transform: uppercase;
     font-weight: bold; }
   body.single-ic_product .site-main .info-wrapper {
-    border: 2px solid #add;
     padding: 20px 15px;
     border-radius: 6px;
     margin-top: 40px;
-    margin-bottom: 40px;
-    background: linear-gradient(to left, #fff, #a0daf4); }
+    margin-bottom: 40px; }
     body.single-ic_product .site-main .info-wrapper h2 {
       margin-bottom: 30px; }
+  body.single-ic_product .pricing-button-wrapper {
+    padding: 20px 10px;
+    margin: 20px auto;
+    text-align: center; }
+    body.single-ic_product .pricing-button-wrapper .get-pricing-button {
+      background-color: #FFCF2E;
+      padding: 9px 30px 11px;
+      color: #003D4E;
+      text-transform: uppercase; }
 
 body.single-ic_problem {
   position: relative; }
