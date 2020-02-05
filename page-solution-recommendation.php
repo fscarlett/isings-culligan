@@ -146,13 +146,23 @@ get_header();
 			if ($secondary_product === 'WS') {	?>
 
 				<div class="recommend-wrapper">
-					<h2>Water Softener</h2>
+					<!-- <h2>Water Softener</h2> -->
+
+					<?php get_template_part('template-parts/solution-softener'); ?>
+
+					<a href="/products/water-softener/" class="more-info">More Information</a>
+
 				</div>
 
 			<?php	} elseif ($secondary_product === 'RO') {	?>
 
 				<div class="recommend-wrapper">
-					<h2>Reverse Osmosis Water Filter</h2>
+					<!-- <h2>Reverse Osmosis Water Filter</h2> -->
+
+					<?php get_template_part('template-parts/solution-reverse'); ?>
+
+					<a href="/products/reverse-osmosis/" class="more-info">More Information</a>
+					
 				</div>
 
 			<?php	}  
