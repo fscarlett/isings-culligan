@@ -58,5 +58,130 @@ body.single-ic_product {
 		}
 	}
 
+	/*  =======  MODAL ============================= */
+
+
+.product-modal-trigger {
+  font-size: 1.6rem;
+  color: $brand-color;
+  padding: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.product-modal {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.product-modal-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 95%;
+  max-width: 700px;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 6px;
+  h3 {
+    font-weight: normal;
+    margin: 20px;
+    font-size: 2.2rem;
+    @media (max-width: 767px) {
+      margin: 0;
+    }
+  }
+
+  .product-modal-header {
+    background-color: $header-bg;
+    // height: 140px;
+    // margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    img {
+      position: relative;
+      top: 39px;
+      width: 115px;
+    }
+    h2 {
+    	color: #fff;
+    }
+  }
+}
+
+.product-modal-form-wrapper {
+	padding: 10px 20px;
+
+	#gform_wrapper_5 {
+		margin: 0;
+	}
+
+	.gform_wrapper .top_label div.ginput_container {
+		margin-top: 0;
+	}
+
+	.gform_wrapper input,
+	.gform_wrapper textarea {
+		line-height: 1.1;
+	}
+
+	.gform_wrapper textarea.medium {
+		height: 100px;
+	}
+
+	.gform_wrapper ul li.gfield {
+		margin-top: 2px;
+		margin-bottom: 10px;
+		label {
+			margin-bottom: -7px;
+		}
+	}
+}
+
+
+
+.product-modal-buttons-wrapper form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px 25px;
+
+  .modal-confirm {
+    display: inline-block;
+    margin: 30px 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}
+
+.modal-confirm {
+  display: inline-block;
+  margin: 30px 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.close-modal-link,
+.close-message-modal-link {
+  cursor: pointer;
+  font-size: 15px;
+}
+.show-product-modal,
+.show-message-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
 	
 }

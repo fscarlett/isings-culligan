@@ -41,8 +41,10 @@ get_header();
 					</div>
 
 					<div class="pricing-button-wrapper">
-						<button class="get-pricing-button">Get Pricing</button>
+						<button class="get-pricing-button product-modal-trigger">Get Pricing</button>
 					</div>
+
+					<?php get_template_part('template-parts/section-product-modal'); ?>
 
 					<div class="info-wrapper">
 						
