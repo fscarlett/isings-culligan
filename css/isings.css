@@ -863,7 +863,7 @@ body.single-ic_product {
     body.single-ic_product .product-modal-content .product-modal-header {
       background-color: #006699;
       padding: 10px;
-      border-radius: 6px;
+      border-radius: 6px 6px 0 0;
       text-align: center; }
       body.single-ic_product .product-modal-content .product-modal-header img {
         position: relative;
