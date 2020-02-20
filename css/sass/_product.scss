@@ -89,7 +89,7 @@ body.single-ic_product {
   left: 50%;
   top: 50%;
   width: 95%;
-  max-width: 700px;
+  max-width: 800px;
   transform: translate(-50%, -50%);
   background-color: #fff;
   border-radius: 6px;
@@ -118,6 +118,33 @@ body.single-ic_product {
     	color: #fff;
     }
   }
+
+  .gform_wrapper div.validation_error {
+    color: $error-color;
+    font-size: 1em;
+    font-weight: bold;
+		margin-bottom: 0; 
+    border-top: 1px solid $error-color;
+    border-bottom: 1px solid $error-color;
+    padding: 5px 0;
+  }
+  .gform_wrapper .field_description_below .gfield_description {
+    padding-top: 10px;
+	}
+
+	.gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container, 
+	.gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+    margin-top: 5px;
+	}
+
+	.gform_wrapper .gfield_error .gfield_label {
+    // color: #790000;
+    color: $error-color;
+	}
+
+	.gform_wrapper .validation_message  {
+		color: $error-color;
+	}
 }
 
 .product-modal-form-wrapper {
@@ -137,7 +164,7 @@ body.single-ic_product {
 	}
 
 	.gform_wrapper textarea.medium {
-		height: 100px;
+		height: 60px;
 	}
 
 	.gform_wrapper ul li.gfield {
@@ -146,6 +173,11 @@ body.single-ic_product {
 		label {
 			margin-bottom: -7px;
 		}
+	}
+
+	.gform_wrapper li.gfield.gfield_error, 
+	.gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+		background-color: rgba(255,199,199,0.2);
 	}
 }
 

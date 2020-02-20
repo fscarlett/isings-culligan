@@ -849,7 +849,7 @@ body.single-ic_product {
     left: 50%;
     top: 50%;
     width: 95%;
-    max-width: 700px;
+    max-width: 800px;
     transform: translate(-50%, -50%);
     background-color: #fff;
     border-radius: 6px; }
@@ -871,6 +871,23 @@ body.single-ic_product {
         width: 115px; }
       body.single-ic_product .product-modal-content .product-modal-header h2 {
         color: #fff; }
+    body.single-ic_product .product-modal-content .gform_wrapper div.validation_error {
+      color: #e33;
+      font-size: 1em;
+      font-weight: bold;
+      margin-bottom: 0;
+      border-top: 1px solid #e33;
+      border-bottom: 1px solid #e33;
+      padding: 5px 0; }
+    body.single-ic_product .product-modal-content .gform_wrapper .field_description_below .gfield_description {
+      padding-top: 10px; }
+    body.single-ic_product .product-modal-content .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container,
+    body.single-ic_product .product-modal-content .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+      margin-top: 5px; }
+    body.single-ic_product .product-modal-content .gform_wrapper .gfield_error .gfield_label {
+      color: #e33; }
+    body.single-ic_product .product-modal-content .gform_wrapper .validation_message {
+      color: #e33; }
   body.single-ic_product .product-modal-form-wrapper {
     padding: 10px 20px; }
     body.single-ic_product .product-modal-form-wrapper #gform_wrapper_5 {
@@ -881,12 +898,15 @@ body.single-ic_product {
     body.single-ic_product .product-modal-form-wrapper .gform_wrapper textarea {
       line-height: 1.1; }
     body.single-ic_product .product-modal-form-wrapper .gform_wrapper textarea.medium {
-      height: 100px; }
+      height: 60px; }
     body.single-ic_product .product-modal-form-wrapper .gform_wrapper ul li.gfield {
       margin-top: 2px;
       margin-bottom: 10px; }
       body.single-ic_product .product-modal-form-wrapper .gform_wrapper ul li.gfield label {
         margin-bottom: -7px; }
+    body.single-ic_product .product-modal-form-wrapper .gform_wrapper li.gfield.gfield_error,
+    body.single-ic_product .product-modal-form-wrapper .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+      background-color: rgba(255, 199, 199, 0.2); }
   body.single-ic_product .product-modal-buttons-wrapper form {
     display: flex;
     justify-content: space-around;
