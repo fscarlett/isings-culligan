@@ -9,7 +9,7 @@
     
     <div class="product-modal-form-wrapper">
 
-      <?php echo do_shortcode('[gravityform id="5" title="false" description="false" ajax="true"]'); ?>
+      <?php echo do_shortcode('[gravityform id="12" title="false" description="false" ajax="true"]'); ?>
       
       <!-- form shortcode goes here -->
 

@@ -105,6 +105,17 @@ input.gform_button {
   }
 }
 
+div.gform_confirmation_message {
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 1.6rem;
+  padding: 10px 20px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #00eae2;
+}
+
 #media_image-2 {
   padding: 10px 10px 0;
   margin-bottom: 0;
