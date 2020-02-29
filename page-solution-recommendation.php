@@ -109,7 +109,7 @@ get_header();
 
 					<?php get_template_part('template-parts/solution-softener'); ?>
 
-					<a href="/products/water-softener/" class="more-info">More Information</a>
+					<a href="/product/water-softener/" class="more-info">More Information</a>
 
 				</div>
 
@@ -120,7 +120,7 @@ get_header();
 
 					<?php get_template_part('template-parts/solution-reverse'); ?>
 
-					<a href="/products/reverse-osmosis/" class="more-info">More Information</a>
+					<a href="/product/reverse-osmosis/" class="more-info">More Information</a>
 
 
 				</div>
@@ -132,7 +132,7 @@ get_header();
 
 					<?php get_template_part('template-parts/solution-house'); ?> 
 
-					<a href="/products/whole-house-water-filter/" class="more-info">More Information</a>
+					<a href="/product/whole-house-water-filter/" class="more-info">More Information</a>
 
 				</div>
 
@@ -150,7 +150,7 @@ get_header();
 
 					<?php get_template_part('template-parts/solution-softener'); ?>
 
-					<a href="/products/water-softener/" class="more-info">More Information</a>
+					<a href="/product/water-softener/" class="more-info">More Information</a>
 
 				</div>
 
@@ -161,8 +161,8 @@ get_header();
 
 					<?php get_template_part('template-parts/solution-reverse'); ?>
 
-					<a href="/products/reverse-osmosis/" class="more-info">More Information</a>
-					
+					<a href="/product/reverse-osmosis/" class="more-info">More Information</a>
+
 				</div>
 
 			<?php	}  
