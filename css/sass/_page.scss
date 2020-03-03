@@ -30,6 +30,19 @@ body.error404 {
 		font-weight: bold;
 	}
 
+	.cta-button {
+		display: inline-block;
+		background-color: $highlight-color;
+		color: $text-color-dark;
+		padding: 10px 20px;
+		margin: 30px 0;
+		width: 215px;
+		max-width: 90%;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 2rem;
+	}
+
 
 	.home-water-solution-section {
 		min-height: 200px;
