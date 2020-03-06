@@ -118,6 +118,44 @@ function ic_post_types() {
 
   register_post_type( 'ic_opening', $opening_args );
 
+
+//register Resource post type
+  $resource_labels = array(
+    'name'                => 'Resources',
+    'singular_name'       => 'Resource',
+    'menu_name'           => 'Resources',
+    'name_admin_bar'      => 'Resource',
+    'add_new'             => 'Add New',
+    'add_new_item'        => 'Add New Resource',
+    'new_item'            => 'New Resource',
+    'edit_item'           => 'Edit Resource',
+    'view_item'           => 'View Resource',
+    'all_items'           => 'All Resources',
+    'search_items'        => 'Search For Resources',
+    'parent_item_colon'   => 'Parent Resources:',
+    'not_found'           => 'No Resource found.',
+    'not_found_in_trash'  => 'No Resource found in trash.',
+    );
+  $resource_args = array(
+    'labels'              => $resource_labels,
+    'description'         => 'Resources',
+    'public'              => true,
+    'publicly_queryable'  => true,
+    'show_ui'             => true,
+    'query_var'           => true,
+    'rewrite'             => array( 'slug' => 'resources' ),
+    'capability_type'     => 'page',
+    'map_meta_cap'        => true,
+    'exclude_from_search' => false,
+    'has_archive'         => false,
+    'hierarchical'        => false,
+    'menu_position'       => null,
+    'supports'            => array( 'title', 'thumbnail', 'editor', 'excerpt', 'page-attributes' ),
+    'menu_icon'           => 'dashicons-palmtree',
+    );
+
+  register_post_type( 'ic_resource', $resource_args );
+
 }
 
 add_action( 'init', 'ic_post_types', 10 );

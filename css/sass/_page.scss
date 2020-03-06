@@ -3,11 +3,15 @@ body.page-template-page-no-sidebar,
 body.page-template-page-solution-center,
 body.page-template-page-solution-recommendation,
 body.single-ic_product, 
+body.single-ic_resource, 
 body.error404 {
 	position: relative; 
 	#content {
 		padding-top: 50px;
 		padding-bottom: 50px;		
+		p {
+			letter-spacing: 0.01px;
+		}
 	}
 
 	.page-content-wrapper {

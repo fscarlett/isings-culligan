@@ -38,16 +38,6 @@ get_header();
 
 					</div>
 
-					<!-- <div class="info-wrapper">
-						
-
-						<div class="overview"><?php the_field('overview'); ?></div>
-						<div class="overview"><?php the_field('specifications'); ?></div>
-						<div class="overview"><?php the_field('faq'); ?></div>
-
-						
-					</div> -->
-
 
 				<?php
 				endwhile; // End of the loop.
