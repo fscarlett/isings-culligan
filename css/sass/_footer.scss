@@ -16,6 +16,9 @@ footer.site-footer {
 	.ic-button {
 		color: $text-color-dark;
 		margin-left: 0;
+		&:hover {
+			color: $aqua-text;
+		}
 	}
 	#footer-menu {
 		margin: 0;

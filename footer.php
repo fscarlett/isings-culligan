@@ -21,7 +21,7 @@
 					<p>1226 Enterprise St</p>
 					<p>Stockton CA 95204</p>
 					<p class="footer-phone"><a href="tel:209-690-0007">209-690-0007</a></p>
-					<a href="mailto:info@isingsculliganwater.com" class="btn ic-button">Email Us</a>
+					<a href="/contact" class="btn ic-button">Email Us</a>
 				</div>
 
 				<div class="col-md-3">
@@ -42,7 +42,7 @@
 					<p>
 						<?php
 						/* translators: %s: CMS name, i.e. WordPress. */
-						printf( esc_html__( 'Proudly serving Livermore, Pleasanton, Brentwood, Fremont, Walnut Creek, and all of Alameda and Contra Costa counties', 'isings' ) );
+						printf( esc_html__( 'Proudly Serving Stockton, Manteca, Lodi, Discovery Bay, Lathrop, Escalon, Ripon, Angels Camp, Murphys, and San Joaquin and Calaveras counties', 'isings' ) );
 						?>
 					</p>
 				</div>
