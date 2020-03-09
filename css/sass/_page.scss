@@ -32,6 +32,7 @@ body.error404 {
 		color: $aqua-text;
 		text-transform: uppercase;
 		font-weight: bold;
+		margin-bottom: 25px;
 	}
 
 	.cta-button {
@@ -125,6 +126,7 @@ body.error404 {
 			background-color: $aqua-text;
 			padding: 30px 30px;
 			color: #fff;
+			margin-bottom: 25px;
 			a h3 {
 				color: #fff;
 			}
@@ -146,3 +148,17 @@ body.error404 {
 		}
 	}
 }
+
+.ic-testimonial {
+	font-size: 1.8rem;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	span {
+		color: $aqua-text;
+		display: block;
+		font-style: italic;
+	}
+}
+
+

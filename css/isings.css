@@ -421,7 +421,8 @@ body.home {
     body.home .home-blog-section .ic-home-blog-copy-card {
       background-color: #00A6B2;
       padding: 30px 30px;
-      color: #fff; }
+      color: #fff;
+      margin-bottom: 25px; }
       body.home .home-blog-section .ic-home-blog-copy-card h3 {
         color: #fff; }
 
@@ -487,7 +488,8 @@ body.error404 {
   body.error404 h3 {
     color: #00A6B2;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-bottom: 25px; }
   body.page-template-default .cta-button,
   body.page-template-page-no-sidebar .cta-button,
   body.page-template-page-solution-center .cta-button,
@@ -677,7 +679,8 @@ body.error404 {
     body.error404 .home-blog-section .ic-home-blog-copy-card {
       background-color: #00A6B2;
       padding: 30px 30px;
-      color: #fff; }
+      color: #fff;
+      margin-bottom: 25px; }
       body.page-template-default .home-blog-section .ic-home-blog-copy-card a h3,
       body.page-template-page-no-sidebar .home-blog-section .ic-home-blog-copy-card a h3,
       body.page-template-page-solution-center .home-blog-section .ic-home-blog-copy-card a h3,
@@ -695,6 +698,16 @@ body.error404 {
     margin-bottom: 15px; }
     #menu-sidebar-menu li a:hover {
       color: #00A6B2; }
+
+.ic-testimonial {
+  font-size: 1.8rem;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-weight: bold; }
+  .ic-testimonial span {
+    color: #00A6B2;
+    display: block;
+    font-style: italic; }
 
 body.post-template-default,
 body.page-template-page-blog {
@@ -803,7 +816,8 @@ body.page-template-page-blog {
     body.page-template-page-blog .home-blog-section .ic-home-blog-copy-card {
       background-color: #00A6B2;
       padding: 30px 30px;
-      color: #fff; }
+      color: #fff;
+      margin-bottom: 25px; }
       body.post-template-default .home-blog-section .ic-home-blog-copy-card a h3,
       body.page-template-page-blog .home-blog-section .ic-home-blog-copy-card a h3 {
         color: #fff; }
@@ -850,14 +864,15 @@ body.page-template-page-blog {
     body.page-template-page-blog .content-area .ic-blog-card {
       display: block; }
     body.page-template-page-blog .content-area .ic-home-blog-img-wrapper {
-      height: 170px;
+      height: 160px;
       overflow: hidden; }
       body.page-template-page-blog .content-area .ic-home-blog-img-wrapper img {
         width: 100%; }
     body.page-template-page-blog .content-area .ic-home-blog-copy-card {
       background-color: #00A6B2;
       padding: 30px 30px;
-      color: #fff; }
+      color: #fff;
+      margin-bottom: 25px; }
       body.page-template-page-blog .content-area .ic-home-blog-copy-card h3 {
         color: #fff; }
 
@@ -1046,52 +1061,52 @@ body.single-ic_resource {
     margin-right: 20px;
     margin-bottom: 15px; }
 
-body.page-template-page-resource {
+body.page-template-page-resources {
   position: relative; }
-  body.page-template-page-resource #content {
+  body.page-template-page-resources #content {
     padding-top: 50px;
     padding-bottom: 0; }
-  body.page-template-page-resource .page-content-wrapper {
+  body.page-template-page-resources .page-content-wrapper {
     margin-bottom: 130px;
     position: relative;
     z-index: 10; }
-  body.page-template-page-resource h1.entry-title {
+  body.page-template-page-resources h1.entry-title {
     color: #00A6B2;
     font-size: 2.5rem;
     margin: 0 0 20px;
     text-transform: uppercase;
     font-weight: bold; }
-  body.page-template-page-resource h2, body.page-template-page-resource h3 {
+  body.page-template-page-resources h2, body.page-template-page-resources h3 {
     color: #00A6B2;
     text-transform: uppercase;
     font-weight: bold; }
-  body.page-template-page-resource .home-water-solution-section {
+  body.page-template-page-resources .home-water-solution-section {
     min-height: 500px;
     background-color: #a0daf4;
     padding: 0 0 40px;
     position: relative; }
-    body.page-template-page-resource .home-water-solution-section .solution-gradient {
+    body.page-template-page-resources .home-water-solution-section .solution-gradient {
       background: linear-gradient(#fff, #a0daf4);
       height: 100px; }
-    body.page-template-page-resource .home-water-solution-section img.water-graphic-home {
+    body.page-template-page-resources .home-water-solution-section img.water-graphic-home {
       width: 100%;
       height: auto;
       position: absolute;
       top: -165px;
       left: 0; }
       @media (max-width: 1500px) {
-        body.page-template-page-resource .home-water-solution-section img.water-graphic-home {
+        body.page-template-page-resources .home-water-solution-section img.water-graphic-home {
           top: -115px; } }
       @media (max-width: 992px) {
-        body.page-template-page-resource .home-water-solution-section img.water-graphic-home {
+        body.page-template-page-resources .home-water-solution-section img.water-graphic-home {
           top: -65px; } }
       @media (max-width: 767px) {
-        body.page-template-page-resource .home-water-solution-section img.water-graphic-home {
+        body.page-template-page-resources .home-water-solution-section img.water-graphic-home {
           top: -40px; } }
       @media (max-width: 360px) {
-        body.page-template-page-resource .home-water-solution-section img.water-graphic-home {
+        body.page-template-page-resources .home-water-solution-section img.water-graphic-home {
           top: -30px; } }
-    body.page-template-page-resource .home-water-solution-section h2 {
+    body.page-template-page-resources .home-water-solution-section h2 {
       color: #003D4E;
       text-align: left;
       font-size: 2rem;
@@ -1099,91 +1114,92 @@ body.page-template-page-resource {
       text-transform: uppercase;
       font-weight: bold; }
       @media (min-width: 1350px) {
-        body.page-template-page-resource .home-water-solution-section h2 {
+        body.page-template-page-resources .home-water-solution-section h2 {
           text-align: left; } }
-    body.page-template-page-resource .home-water-solution-section p {
+    body.page-template-page-resources .home-water-solution-section p {
       color: #003D4E; }
-    body.page-template-page-resource .home-water-solution-section .ic-button {
+    body.page-template-page-resources .home-water-solution-section .ic-button {
       margin: 50px 0; }
-  body.page-template-page-resource .home-blog-section {
+  body.page-template-page-resources .home-blog-section {
     min-height: 300px;
     padding: 40px 0; }
-    body.page-template-page-resource .home-blog-section h2 {
+    body.page-template-page-resources .home-blog-section h2 {
       font-size: 2.6rem;
       color: #003D4E;
       text-transform: uppercase;
       font-weight: bold;
       margin-bottom: 40px; }
-    body.page-template-page-resource .home-blog-section h3 {
+    body.page-template-page-resources .home-blog-section h3 {
       font-weight: bold;
       text-transform: uppercase;
       text-align: center;
       margin-bottom: 30px; }
-    body.page-template-page-resource .home-blog-section .ic-blog-card {
+    body.page-template-page-resources .home-blog-section .ic-blog-card {
       display: block; }
-    body.page-template-page-resource .home-blog-section .ic-home-blog-img-wrapper {
+    body.page-template-page-resources .home-blog-section .ic-home-blog-img-wrapper {
       height: 230px;
       overflow: hidden; }
-      body.page-template-page-resource .home-blog-section .ic-home-blog-img-wrapper img {
+      body.page-template-page-resources .home-blog-section .ic-home-blog-img-wrapper img {
         width: 100%; }
-    body.page-template-page-resource .home-blog-section .ic-home-blog-copy-card {
+    body.page-template-page-resources .home-blog-section .ic-home-blog-copy-card {
       background-color: #00A6B2;
       padding: 30px 30px;
-      color: #fff; }
-      body.page-template-page-resource .home-blog-section .ic-home-blog-copy-card a h3 {
+      color: #fff;
+      margin-bottom: 25px; }
+      body.page-template-page-resources .home-blog-section .ic-home-blog-copy-card a h3 {
         color: #fff; }
 
 /* Blog Page ============================================= */
-body.page-template-page-resource {
+body.page-template-page-resources {
   position: relative; }
-  body.page-template-page-resource #content {
+  body.page-template-page-resources #content {
     padding-top: 50px;
     padding-bottom: 0; }
   @media (min-width: 1400px) {
-    body.page-template-page-resource .container {
+    body.page-template-page-resources .container {
       max-width: 1400px; } }
-  body.page-template-page-resource .page-content-wrapper {
+  body.page-template-page-resources .page-content-wrapper {
     margin-bottom: 130px;
     position: relative;
     z-index: 10; }
-  body.page-template-page-resource h1 {
+  body.page-template-page-resources h1 {
     color: #00A6B2;
     font-size: 2.5rem;
     margin: 0 0 20px;
     text-transform: uppercase;
     font-weight: bold; }
-  body.page-template-page-resource h2, body.page-template-page-resource h3 {
+  body.page-template-page-resources h2, body.page-template-page-resources h3 {
     color: #00A6B2;
     text-transform: uppercase;
     font-weight: bold; }
-  body.page-template-page-resource .content-area {
+  body.page-template-page-resources .content-area {
     min-height: 300px;
     padding: 40px 0; }
-    body.page-template-page-resource .content-area h2 {
+    body.page-template-page-resources .content-area h2 {
       font-size: 2.6rem;
       color: #003D4E;
       text-transform: uppercase;
       font-weight: bold;
       margin-bottom: 40px; }
-    body.page-template-page-resource .content-area h3 {
+    body.page-template-page-resources .content-area h3 {
       font-weight: bold;
       text-transform: uppercase;
       text-align: center;
       margin-bottom: 30px; }
-    body.page-template-page-resource .content-area .ic-blog-column {
+    body.page-template-page-resources .content-area .ic-blog-column {
       margin-bottom: 30px; }
-    body.page-template-page-resource .content-area .ic-blog-card {
+    body.page-template-page-resources .content-area .ic-blog-card {
       display: block; }
-    body.page-template-page-resource .content-area .ic-home-blog-img-wrapper {
-      height: 170px;
+    body.page-template-page-resources .content-area .ic-home-blog-img-wrapper {
       overflow: hidden; }
-      body.page-template-page-resource .content-area .ic-home-blog-img-wrapper img {
+      body.page-template-page-resources .content-area .ic-home-blog-img-wrapper img {
         width: 100%; }
-    body.page-template-page-resource .content-area .ic-home-blog-copy-card {
+    body.page-template-page-resources .content-area .ic-home-blog-copy-card {
       background-color: #00A6B2;
       padding: 30px 30px;
-      color: #fff; }
-      body.page-template-page-resource .content-area .ic-home-blog-copy-card h3 {
+      color: #fff;
+      margin-bottom: 25px; }
+      body.page-template-page-resources .content-area .ic-home-blog-copy-card h3 {
         color: #fff; }
 
 body.page-template-page-solution-center #content .page-content-wrapper {
@@ -1253,7 +1269,8 @@ body.page-template-page-solution-center .input-heading {
 body.page-template-page-solution-center .ic-home-blog-copy-card {
   background-color: #00A6B2;
   padding: 30px 30px;
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 25px; }
   body.page-template-page-solution-center .ic-home-blog-copy-card a h3 {
     color: #fff; }
 

@@ -119,6 +119,14 @@ function isings_widgets_init() {
 }
 add_action( 'widgets_init', 'isings_widgets_init' );
 
+
+/**
+*  set excerpt length
+*/
+add_filter( 'excerpt_length', function($length) {
+    return 25;
+} );
+
 /**
  * Enqueue scripts and styles.
  */

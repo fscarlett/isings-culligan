@@ -105,6 +105,7 @@ position: relative;
 			background-color: $aqua-text;
 			padding: 30px 30px;
 			color: #fff;
+			margin-bottom: 25px;
 			a h3 {
 				color: #fff;
 			}
@@ -164,14 +165,14 @@ body.page-template-page-blog {
 		}
 		.ic-blog-column {
 			margin-bottom: 30px;
-			// padding-right: 8px !important;
+			// padding-right: 8px !important; 
 			// padding-left: 8px !important;
 		}
 		.ic-blog-card {
 			display: block;
 		}
 		.ic-home-blog-img-wrapper {
-			height: 170px;
+			height: 160px;
 			overflow: hidden;
 			img {
 				width: 100%;
@@ -181,6 +182,7 @@ body.page-template-page-blog {
 			background-color: $aqua-text;
 			padding: 30px 30px;
 			color: #fff;
+			margin-bottom: 25px;
 			h3 {
 				color: #fff;
 			}

@@ -42,9 +42,9 @@ body.single-ic_resource {
 	
 }
 
+ 
 
-
-body.page-template-page-resource {
+body.page-template-page-resources {
 position: relative; 
 	#content {
 		padding-top: 50px;
@@ -149,6 +149,7 @@ position: relative;
 			background-color: $aqua-text;
 			padding: 30px 30px;
 			color: #fff;
+			margin-bottom: 25px;
 			a h3 {
 				color: #fff;
 			}
@@ -158,7 +159,7 @@ position: relative;
 }
 
 /* Blog Page ============================================= */
-body.page-template-page-resource {
+body.page-template-page-resources {
 	position: relative; 
 	#content {
 		padding-top: 50px;
@@ -215,16 +216,19 @@ body.page-template-page-resource {
 			display: block;
 		}
 		.ic-home-blog-img-wrapper {
-			height: 170px;
+			// height: 175px;
+
 			overflow: hidden;
 			img {
 				width: 100%;
+
 			}
 		}
 		.ic-home-blog-copy-card {
 			background-color: $aqua-text;
 			padding: 30px 30px;
 			color: #fff;
+			margin-bottom: 25px;
 			h3 {
 				color: #fff;
 			}
