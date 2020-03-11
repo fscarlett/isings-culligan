@@ -18,7 +18,7 @@ get_header();
 
 		<div class="hero-wrapper" style="background-image: url(<?php home_url(); ?>/wp-content/uploads/2019/11/baby_sink_sink_with_dad.jpg);">
 			<div class="hero-container container">
-				<h1>You could give your people Culligan Water</h1>
+				<h1>Better Water for the Whole Family</h1>
 			</div>
 		</div>
 

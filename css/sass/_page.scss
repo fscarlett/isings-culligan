@@ -88,6 +88,9 @@ body.error404 {
 				@media(min-width: 1350px){
 					text-align: left;
 				}
+				@media(max-width: 767px){
+					margin-top: 70px;
+				}
 			}
 			p {
 				color: $text-color-dark;
@@ -116,7 +119,7 @@ body.error404 {
 			display: block;
 		}
 		.ic-home-blog-img-wrapper {
-			height: 230px;
+			// height: 230px;
 			overflow: hidden;
 			img {
 				width: 100%;

@@ -142,6 +142,9 @@ div.gform_confirmation_message {
     align-items: center;
     background: #E4E8F0;
     padding: 10px 20px; }
+    @media (max-width: 767px) {
+      #masthead .topbar .top-nav {
+        display: none; } }
     #masthead .topbar .top-nav ul li {
       display: inline-block;
       margin-right: 30px; }
@@ -211,7 +214,8 @@ div.gform_confirmation_message {
     z-index: 1000; }
     #masthead .nav-container #site-navigation.toggled li {
       margin-top: 10px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      width: 90%; }
 
 #masthead .topbar nav.main-navigation {
   width: auto; }
@@ -224,6 +228,13 @@ div.gform_confirmation_message {
         width: 100%;
         margin-bottom: 10px;
         margin-left: 15px; }
+
+@media (min-width: 767px) {
+  #masthead #menu-item-382,
+  #masthead #menu-item-383,
+  #masthead #menu-item-384,
+  #masthead #menu-item-388 {
+    display: none; } }
 
 footer.site-footer {
   background-color: #003D4E;
@@ -393,6 +404,9 @@ body.home {
       @media (min-width: 1350px) {
         body.home .home-water-solution-section h2 {
           text-align: left; } }
+      @media (max-width: 767px) {
+        body.home .home-water-solution-section h2 {
+          margin-top: 70px; } }
     body.home .home-water-solution-section p {
       color: #003D4E; }
     body.home .home-water-solution-section .ic-button {
@@ -414,7 +428,6 @@ body.home {
     body.home .home-blog-section .ic-blog-card {
       display: block; }
     body.home .home-blog-section .ic-home-blog-img-wrapper {
-      height: 230px;
       overflow: hidden; }
       body.home .home-blog-section .ic-home-blog-img-wrapper img {
         width: 100%; }
@@ -597,6 +610,15 @@ body.error404 {
         body.single-ic_resource .home-water-solution-section h2,
         body.error404 .home-water-solution-section h2 {
           text-align: left; } }
+      @media (max-width: 767px) {
+        body.page-template-default .home-water-solution-section h2,
+        body.page-template-page-no-sidebar .home-water-solution-section h2,
+        body.page-template-page-solution-center .home-water-solution-section h2,
+        body.page-template-page-solution-recommendation .home-water-solution-section h2,
+        body.single-ic_product .home-water-solution-section h2,
+        body.single-ic_resource .home-water-solution-section h2,
+        body.error404 .home-water-solution-section h2 {
+          margin-top: 70px; } }
     body.page-template-default .home-water-solution-section p,
     body.page-template-page-no-sidebar .home-water-solution-section p,
     body.page-template-page-solution-center .home-water-solution-section p,
@@ -660,7 +682,6 @@ body.error404 {
     body.single-ic_product .home-blog-section .ic-home-blog-img-wrapper,
     body.single-ic_resource .home-blog-section .ic-home-blog-img-wrapper,
     body.error404 .home-blog-section .ic-home-blog-img-wrapper {
-      height: 230px;
       overflow: hidden; }
       body.page-template-default .home-blog-section .ic-home-blog-img-wrapper img,
       body.page-template-page-no-sidebar .home-blog-section .ic-home-blog-img-wrapper img,
@@ -725,7 +746,7 @@ body.page-template-page-blog {
   body.page-template-page-blog h1.entry-title {
     color: #00A6B2;
     font-size: 2.5rem;
-    margin: 0 0 20px;
+    margin: 0 4px 20px;
     text-transform: uppercase;
     font-weight: bold; }
   body.post-template-default h2, body.post-template-default h3,
@@ -838,7 +859,7 @@ body.page-template-page-blog {
   body.page-template-page-blog h1 {
     color: #00A6B2;
     font-size: 2.5rem;
-    margin: 0 0 20px;
+    margin: 0 4px 20px;
     text-transform: uppercase;
     font-weight: bold; }
   body.page-template-page-blog h2, body.page-template-page-blog h3 {
@@ -864,8 +885,10 @@ body.page-template-page-blog {
     body.page-template-page-blog .content-area .ic-blog-card {
       display: block; }
     body.page-template-page-blog .content-area .ic-home-blog-img-wrapper {
-      height: 160px;
       overflow: hidden; }
+      @media (min-width: 992px) {
+        body.page-template-page-blog .content-area .ic-home-blog-img-wrapper {
+          height: 160px; } }
       body.page-template-page-blog .content-area .ic-home-blog-img-wrapper img {
         width: 100%; }
     body.page-template-page-blog .content-area .ic-home-blog-copy-card {

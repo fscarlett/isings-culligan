@@ -15,6 +15,9 @@
 			align-items: center;
 			background: $topbar-bg;
 			padding: 10px 20px;
+			@media(max-width: 767px){
+				display: none;
+			}
 
 			ul {
 				li {
@@ -111,6 +114,7 @@
 			li {
 				margin-top: 10px;
 				margin-bottom: 10px;
+				width: 90%;
 			}
 		}
 	}
@@ -134,4 +138,12 @@
 			}
 	}
 
+	@media(min-width: 767px) {
+		#menu-item-382,
+		#menu-item-383,
+		#menu-item-384,
+		#menu-item-388 {
+			display: none;
+		}
+	}
 }
