@@ -22,6 +22,9 @@ a {
   a:visited {
     color: inherit; }
 
+#main .entry-content a {
+  color: #00A6B2; }
+
 #primary {
   margin-bottom: 20px; }
 
