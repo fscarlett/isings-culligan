@@ -50,9 +50,9 @@
 				<div class="col-md-3">
 					<h2>Follow Us</h2>
 					<div class="socials">
-						<a href="https://www.facebook.com/isingsculliganwaterofstockton/"><i class="fa fa-facebook-square"></i></a>
-						<a href="https://www.twitter.com/isingsculligan1"><i class="fa fa-twitter-square"></i></a>
-						<a href="https://www.instagram.com/isingsculligan"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.facebook.com/isingsculliganwaterofstockton/" target="_blank" rel="noreferrer"><i class="fa fa-facebook-square"></i></a>
+						<a href="https://www.twitter.com/isingsculligan1" target="_blank" rel="noreferrer"><i class="fa fa-twitter-square"></i></a>
+						<a href="https://www.instagram.com/isingsculligan1" target="_blank" rel="noreferrer"><i class="fa fa-instagram"></i></a>
 					</div>
 				</div>
 			</div>
